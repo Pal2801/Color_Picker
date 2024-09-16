@@ -123,12 +123,18 @@ header #clear-btn:hover{
     cursor: pointer;
 }
 span.close-popup{
-    font-size: 19px;
-    cursor: pointer;
-    float: right;
-    background-color: red;
-    color: #fff;
-    border-radius: 50%;
-    width: 22px;
-    height: 22px;
+    background-color: red;        /* Set background color */
+    color: white;                 /* Set text color */
+    border: none;                 /* Remove border */
+    border-radius: 50%;           /* Make it circular */
+    width: 30px;                  /* Set smaller width */
+    height: 30px;                 /* Set smaller height */
+    font-size: 16px;              /* Set font size for the "×" symbol */
+    line-height: 30px;            /* Set line-height equal to height for vertical centering */
+    text-align: center;           /* Center text horizontally */
+    cursor: pointer;              /* Change cursor to pointer */
+    display: inline-block;        /* Make it an inline block */
+    position: absolute;           /* Position absolutely */
+    top: 10px;                    /* Distance from top */
+    right: 10px;                  /* Distance from right */
 }
